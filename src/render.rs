@@ -9,7 +9,7 @@ pub fn render(stdout: &mut Stdout, last_frame: &Frame, current_frame: &Frame, fo
     if force {
         stdout.queue(SetBackgroundColor(Color::Blue)).unwrap();
         stdout.queue(Clear(ClearType::All)).unwrap();
-        stdout.queue(SetBackgroundColor(Color::Black)).unwrap();
+        stdout.queue(SetBackgroundColor(Color::Magenta)).unwrap();
 
     }
 
